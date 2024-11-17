@@ -31,7 +31,6 @@ void Page::clearPage()
   posts = "";
 }
 
-void Page::addLineToPosts(std::string new_Line)
-{
-  posts += new_Line;
+void Page::addLineToPosts(const std::string&new_Line) {
+  posts += new_Line + "\n";
 }
