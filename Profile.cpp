@@ -70,7 +70,7 @@ std::string Profile::getPage() const
                 << posts;
   }
 
-  return pageContent.str() + "\n";
+  return pageContent.str();
 }
 
 // Returns a list of all friends
